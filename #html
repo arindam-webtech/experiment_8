@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Countdown Timer</h1>
+    <p>Time remaining until 1 Jan, 2026</p>
+
+    <!-- Countdown display -->
+    <div id="timer">
+      <div>
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div>
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+
+    <!-- Message when countdown ends -->
+    <div id="finished-message" class="hidden">
+      <h2>🎉 Time's Up!</h2>
+      <p>The countdown has ended.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
